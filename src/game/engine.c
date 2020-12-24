@@ -133,7 +133,7 @@ Camera c;
 
 void init_engine(void){
 	cb=create_constant_buffer(sizeof(CBufferLayout));
-	m=load_model(MODEL_WALLINTERSECTION);
+	m=load_model(MODEL_ARTIFACT);
 	c=create_camera(10,500,0,0,0,90,0,0,1);
 	c->lock=true;
 	c->enabled=true;
