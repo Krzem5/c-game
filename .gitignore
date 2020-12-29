@@ -1,4 +1,6 @@
 ### Github File Push Ignore
 
 build
+rsrc/*.c
+rsrc/*.h
 *.py
